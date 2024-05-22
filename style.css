@@ -1,0 +1,221 @@
+:root {
+    --BrandyRed: #854632;
+    --DarkCharcoal: #312E2C;
+    --DarkRaspberry: #7A284E;
+    --Eggshell: #F3E5D7;
+    --Snow: #FFF7FB;
+    --WengeBrown: #5F564D;
+    --White: #FFFFFF;
+    --WhiteCoffee: #E3DDD7;
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+   flex-direction: column;
+    align-items: center; 
+    background-color: var(--Eggshell);
+    box-sizing: border-box; 
+    padding: 123px;
+}
+
+.section-main {
+    max-width: 736px;
+    background-color: var(--White);
+    padding: 40px;
+    
+
+}
+
+.img-container {
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.image-omelette {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; 
+   
+    
+}
+
+.h1-omelette {
+    color: var(--Dark-Charcoal, #312E2C);
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    
+}
+
+.p-omelette {
+   
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.section-preparation {
+    display: flex;
+   padding: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    box-sizing: border-box;
+    background-color: var(--Snow); 
+    border-radius: 12px;
+}
+
+.section-preparation h1 {
+    color: var(--Dark-Raspberry, #7A284E);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.section-preparation ul{
+    margin: 0;
+    text-align: left;
+   
+}
+
+
+.section-preparation li {
+    color: var(--WengeBrown);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 8px;  
+    
+} 
+
+.section-ingredients {
+
+        border-bottom: 2px solid var(--Eggshell); 
+        margin-bottom: 32px;
+        padding: 32px; 
+    
+   
+}
+
+.section-instructions {
+    border-bottom: 2px solid var(--Eggshell); 
+    margin-bottom: 32px;
+    padding: 32px;
+}
+
+.section-ingredients h1 {
+    color: var(--BrandyRed);
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%
+}
+.section-ingredients ul {
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.section-ingredients li {
+    padding: 8px;
+}
+
+.section-instructions h1 {
+    color: var(--Brandy-Red, #854632);
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+ 
+.section-instructions ol {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%
+
+}
+
+.section-instructions li {
+    padding: 8px;
+
+}
+
+.section-nutrition {
+
+}
+
+.section-nutrition h1 {
+    color: var(--Brandy-Red, #854632);
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.section-nutrition h2 {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section-nutrition table {
+    width: 100%; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section-nutrition th {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 10px; 
+    width: 50%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E3DDD7;
+}
+
+.section-nutrition  td {
+    color: var(--Brandy-Red, #854632);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%
+    padding: 10px; 
+    width: 50%; 
+    box-sizing: border-box;
+    border-bottom: 1px solid #E3DDD7;
+}
